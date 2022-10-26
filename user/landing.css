@@ -1,0 +1,143 @@
+.logo{
+    font-family: 'Sofia', cursive;
+    font-size: 20px;
+    color:  #04daa8;
+}
+body{
+    font-family: 'Quicksand', sans-serif;
+    overflow: hidden;
+    position: relative;
+    background-image: url('images/1.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    transition: .8s ease;
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin:0 auto;
+}
+header .container{
+ display: flex;
+ justify-content: space-between;
+}
+header{
+    background: rgba(3, 3, 3, 0.596);
+    padding:20px 0;
+   
+}
+header a{
+    display: inline-block;
+    transform: translateY(.3em);
+    color: whitesmoke;
+    text-decoration: none;
+    margin: 0 20px;
+}
+header input{
+    display: block;
+    width: 50%;
+    background: whitesmoke;
+    border:none;
+    padding: 0 20px;
+    outline: none;
+}
+header a{
+    display: inline-block;
+    transform: translateY(.3em);
+    color: whitesmoke;
+    text-decoration: none;
+    margin: 0 20px;
+}
+header input{
+    display: block;
+    width: 50%;
+    background: whitesmoke;
+    border:none;
+    padding: 0 20px;
+    outline: none;
+}
+
+.hero-container{
+    z-index: 2;
+    width: 100vw;
+    height: 86vh;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+.overlay{
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.541);
+    position: absolute;
+    z-index: -1;
+}
+.hero-content{
+    width:50%;
+    transform: translateY(-4em);
+    color:white;
+   
+}
+.colored-text{
+    color: #04daa8;
+    transition: .5s ease;
+}
+.hero-content p{
+   color: rgb(204, 204, 204);
+   margin: 1em 0;
+}
+.hero-content a{
+    display: block;
+    text-decoration: none;
+    background-color: #04daa8;
+    width: 8em;
+    margin: 0 auto;
+    color: white;
+    transition: .5s ease;
+    padding: 10px 0;
+}
+
+.hero-content a:hover{
+    background-color: #017e60;
+}
+.bottom-text{
+    text-align: center;
+    display: block;
+    transform: translateY(-4em);
+    color: whitesmoke;
+}
+.bottom-text a{
+    color: #04daa8;
+}
+ @media(max-width:950px){
+     header a{
+    display: inline-block;
+    transform: translateY(.3em);
+    color: whitesmoke;
+    text-decoration: none;
+    margin: 0 20px;
+}
+header input{
+    display: none;
+  
+}
+ }
+ @media(max-width:600px){
+    .hero-content{
+        width: 80%;
+    }
+     .hero-content h1{
+         font-size: 28px;
+     }
+ }
+ @media(max-width:420px){
+    header a{
+        margin: 0 6px;
+    }
+ }

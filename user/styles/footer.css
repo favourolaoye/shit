@@ -1,0 +1,13 @@
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+    font-size: 17px;
+}footer{
+    width: 100%;
+}
+hr{
+    width: 90%;
+    margin: 0 auto;
+}

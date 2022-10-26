@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+.login{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+      form > * {
+        
+        /* line-height: 34px; */
+        display: block;
+        margin: 10px;
+  
+      }
+  
+  form h3{
+    text-align: center;
+    font-size: 36px;
+
+  }
+  .error{
+   color: red;
+    padding: 5px;
+    text-align: center;
+  }
+  form input[type='text'],
+    input[type='email'], input[type='password'] {
+      border: 1px solid #bbb;
+      padding: 15px;
+      width: 350px;
+      outline: none;
+    }
+
+form input::placeholder {
+      padding: 4px;
+      color: rgb(36, 35, 35);
+      font-weight: 500;
+}
+  form input > *:focus{
+    border: #333;
+    outline: #333;
+  }
+  button{
+    color: #fff;
+    font-size: 18px;
+    width: 350px;
+    font-weight: 400;
+    padding: 10px;
+    background: #333;
+    border: 1px solid #333;
+    cursor: pointer;
+  }
+  button:focus{
+    background-color: #fff;
+    border: 1px solid #000;
+    color: #000;
+  }
+  form .check span{
+    font-size: 14px;
+  }
+ .sucess{
+  color: green;
+  text-align: center;
+ }

@@ -1,0 +1,108 @@
+.logo{
+    font-family: 'Sofia', cursive;
+    font-size: 20px;
+    color:  #04daa8;
+}
+
+
+body{
+font-family: 'Quicksand', sans-serif;
+background-color: white;
+}
+header{
+    width: 100%;
+    padding:20px 0;
+    background: #f0f8ff;
+}
+.logo{
+    font-family: 'Sofia', cursive;
+    font-size: 20px;
+    color:  #04daa8;
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 0px auto;
+    width: 90%;
+    display:flex;
+    justify-content:space-between;
+}
+nav{
+
+    width: auto;
+}
+nav a{
+    padding: 0 10px;
+    color: #04daa8;
+    text-decoration: none;
+}
+.hero-container{
+    width: 100vw;
+    display: flex;
+    padding:3em 0;
+    justify-content: center;
+    flex-direction:column;
+    align-items: center;
+    background-color: white;
+}
+.hero-content{
+height: 56vh;
+width: 67%;
+display: block;
+font-size: 12px; margin-top: 20px;
+font-weight: lighter;
+}
+.hero-content h1{
+    font-weight: normal;
+    line-height: 30px;
+    font-size: 20px;
+    overflow: hidden;
+    width: 100%;
+}
+.btn{
+    width: 6em;
+    padding: 6px;
+    background-color: #04daa8;
+    color: white;text-align: center;
+    text-decoration: none;
+}
+footer .container
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+    font-size: 17px;
+}footer{
+    width: 100%;
+}
+.owner a{
+    color: #04daa8;
+}
+
+@media(max-width:736){
+    .hero-content{
+        width: 98%;
+    }
+    .hero-content h1{
+        font-size: 14px;
+        color: black;
+    }
+}
+@media(max-width:760px){
+    .hero-content{
+        width: 96%;
+        
+    }
+    .hero-content h1{
+        font-size: 12px;
+        display: block;
+        line-height: 20px;
+    }
+    .bottom-text{
+        font-size: 16px;
+    }
+}

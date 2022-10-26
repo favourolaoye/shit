@@ -1,0 +1,27 @@
+h2{
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px;
+}
+
+.contents{
+    display: flex;
+    padding: 2em 0;
+    align-items: center;
+    flex-direction: column;  
+    flex-wrap:nowrap;  
+    
+}
+
+.publications{
+    background-color: white;
+    padding: 30px;
+    border: 1px solid rgb(228, 228, 228);
+    width: 60vw;
+    margin-bottom: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
